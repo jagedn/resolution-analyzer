@@ -9,18 +9,17 @@
 
 ## Idea
 
-Say you are managing the Client Customer Complain department of your company
+Say you are managing the Customer Complain department of your company
 
 Say you have a bunch of internal emails (Gmail in this example) about a lot of complaining of customers, discussing
 between different departments every one. 
 
-Say you want to analyze all of them and decide if a complaining can be considered as closed or what's the next steps
-to run.
+Say you want to analyze all of them and decide if a complaining can be considered as closed or decide what's the next steps to run.
 
 ## "Solution"
 
 We'll create a command line micronaut application and, after providing some keywords (for example, the name of the
-customer), we'll retrieve all the conversations.
+customer), we'll retrieve all the relation conversations.
 We will run a query to our AI agent to analyze the conversation, so it can give us some tips about next steps.
 
 Finally, we'll store the answer into a database to future references
