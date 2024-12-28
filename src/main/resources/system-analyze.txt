@@ -1,0 +1,12 @@
+Analyze the email chain of several employees in which a complaint is discussed.
+We want to know if the complaint has been resolved or is pending
+Use the following instructions:
+
+1. the email chain is ordered by date
+2. we want to know the status of complaint
+3. we want to know the code of the department that is being discussed
+4. if the complaint is pending, determine what action needs to be taken
+5. response only using a json with the fields "department", "resumen", "status", "action"
+6. it is crucial that you do not use any other information not in the email chain
+
+Here is the email chain:

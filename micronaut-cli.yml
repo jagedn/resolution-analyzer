@@ -1,0 +1,6 @@
+applicationType: cli
+defaultPackage: es.feuvert.attcliente.ia
+testFramework: spock
+sourceLanguage: groovy
+buildTool: gradle
+features: [app-name, data, data-jdbc, gradle, groovy, http-client-test, jdbc-hikari, logback, micronaut-build, picocli, picocli-groovy-application, picocli-spock, postgres, properties, readme, serialization-jackson, shade, spock, test-resources]
